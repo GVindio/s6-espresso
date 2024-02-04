@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: postgres-configmap
+data:
+  POSTGRES_HOST: cG9zdGdyZXNzZS1wb3N0cmVzcy1oYS1wb3N0Z3JlZ3Vs
+  POSTGRES_DB: cG9zdGdyZXNlcw==
+  POSTGRES_USER: cG9zdGdyZXNlcw==
+
+
